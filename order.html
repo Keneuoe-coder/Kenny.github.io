@@ -1,0 +1,68 @@
+<!DOCTYPE.html>
+<html>
+	<head>
+		<title>delivery</title>
+			<link rel="stylesheet" href="client.css"/>
+	</head>
+	<body>
+		<header>
+			<center><h3>Please place your order</h3></center>
+		</header>
+		<nav>
+			<ul>
+				<a href="meals.php">Meal Information</a>
+				<a href="search.html">Search for food</a>
+				<a href="order.html">Ordering</a>
+				<a href="c_delivery.html">Delivery Options</a>
+				<a href="transactions.html">Transactions</a>
+				<a href="cancellation.php">Cancellation</a>
+				<a href="c_feedback.html">Feedback</a>
+			</ul>
+		</nav>
+			<nav>
+			<a href="ica-1818137.html">LOGOUT HERE</a>
+		</nav>
+		<section> 
+		  <center><form action="orders.php" method="post"><br>
+			<h3><center>Order Form</center><h3>
+			<table>
+				<tr>
+				<td><label for="phone_number">Phone number</label><br>
+				<input type="text" name="phone_number" placeholder="enter phone number"/><br></td>
+				</tr>
+				<tr>	
+				<td><label for="location">Location</label><br>
+				<input type="text" name="location" placeholder="enter your location"/></td>
+				</tr>
+				<tr>
+				<td><label for="resturant_name">resturant name</label><br>
+				<input type="text" name="resturant_name" placeholder="enter resturant name of choice"/><br></td>
+				</tr>
+				
+				<tr>
+				<td><label for="meal">Meal name</label><br>
+				<input type="text" name="meal_name" placeholder="enter your meal"/><br></td>
+				</tr>
+				<tr>
+
+				<tr>
+				<td><label for="delivery">Type of delivery</label><br>
+				<input type="text" name="delivery_option"/><br></td>
+				</tr>
+				<tr>
+				<td><label for="time/date">Date and Time for delivery</label><br>
+				<input type="datetime-local" name="Date_of_delivery"/><br></td>
+				</tr>
+				 </table> 
+				<p><button>	 
+				<input type="submit" name="order" value="order">
+				</button></p></td>
+				</tr>
+		  </center>
+		</section>
+		<footer>
+			<center><strong>Ministry of Small Business Development, 
+				        Cooperatives and Marketing</strong></center>
+		</footer>
+	</body>
+</html>

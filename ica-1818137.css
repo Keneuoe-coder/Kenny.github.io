@@ -1,0 +1,106 @@
+@charset = 'UTF-8'
+
+body {
+	height:100%;
+}
+header {
+	background:teal;
+	color:lime;
+	height:30px;
+	font-size:20;
+}
+nav { 	
+	    height:30px;
+		font-family:arial;
+		font-weight:bold;
+		font-size:20px;
+		background:teal;
+		
+		
+}
+nav ul {
+		list-style-type:none;
+		width:auto;
+		margin:0;
+		display:block;
+		float:left;
+}
+nav ul a {
+				color:lime;
+				text-decoration:none;
+				height:100%;
+				margin-left:5px;
+				background-color:white;
+				border-radius:20px 40px;
+  }
+  nav ul  a:hover {
+					background-color:brown;
+  }
+section {
+	color:lime;
+	background-color:lime;
+	background-image:linear-gradient(navy,lime);
+	width:100%;
+	height:100%;
+	font-family:arial;
+	border-width:8px;
+	background-image:url("yes.jpg");
+	background-size:72%;
+	padding-top:20px;
+	
+}
+footer {
+	background-color:pink;
+	width:100%;
+	height:50px;
+	clear:both;
+	color:lime;
+
+}
+ a {
+				color:brown;
+				text-decoration:none;
+				height:100%;
+				margin-left:5px;
+				background-color:white;
+				border-radius:20px 40px;
+  }
+ a:hover {
+					background-color:aqua;
+  }
+div {
+	text-align:center;
+	position:relative;
+	top:20%;
+	left:20%;
+	transform:translate(-20%,-20%);
+	width:100%;
+	color:white;
+	text-transform:uppercase;
+	animation-name:example;
+	animation-duration:20s;
+	font-family:times new roman;
+	font-size:20px;
+	font-weight:300;
+	letter-spacing:3px;
+	color:lime;
+}
+@keyframes example{
+	25% {
+		color:red;
+		left:0px;
+		top:0px;
+	}
+	50%{letter-spacing:20px;
+	left:0px;
+	top:0px;
+	}
+	100%{
+		color:blue;
+		left:0px;
+		top:0px
+	}
+}
+
+
+
